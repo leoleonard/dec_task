@@ -1,0 +1,41 @@
+::ng-deep {
+  app-product-item {
+    margin: 10px;
+
+    &:hover .product_item {
+      background-color: #d9edf7;
+    }
+
+    .product_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 180px;
+      height: 120px;
+      position: relative;
+      background-color: #F5F5F5;
+      border-radius: 8px;
+
+      .product__item__tooltip {
+        width: 10px;
+        height: 10px;
+        border: 1px solid grey;
+        border-radius: 50%;
+        background-color: grey;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        padding: 10px;
+
+        span {
+          color: white;
+          position: absolute;
+          bottom: -3px;
+          right: 6px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

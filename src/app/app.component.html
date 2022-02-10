@@ -1,1 +1,13 @@
-<h1>{{title}}</h1>
+<div class="container">
+  <app-accordion [header]="header">
+    <app-product-item
+      *ngFor="let product of products"
+      [name]="product.name"
+      [id]="product.id"
+      [tooltip]="product.tooltip"
+      [selected]="product.selected"
+    >
+    </app-product-item>
+  </app-accordion>
+</div>
+

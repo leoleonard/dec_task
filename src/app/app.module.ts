@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { ProductItemComponent } from './product-item/product-item.component';
